@@ -1,0 +1,6 @@
+[submodule "ecommerce-store"]
+	path = ecommerce-store
+	url = git@github.com:RRaj-03/ecommerce-store.git
+[submodule "ecommerce-admin"]
+	path = ecommerce-admin
+	url = git@github.com:RRaj-03/ecommerce-admin.git
