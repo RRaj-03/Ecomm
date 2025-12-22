@@ -67,7 +67,9 @@ const secrets = {
     HUGGINGFACE_API_KEY: getEnvValue('HUGGINGFACE_API_KEY', appEnvContent),
     NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY: 'pk_test_placeholder_admin', // User needs to provide
     NEXT_PUBLIC_API_URL_STORE: getEnvValue('NEXT_PUBLIC_API_URL_STORE', appEnvContent),
-    NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY_STORE: 'pk_test_placeholder_store' // User needs to provide
+    NEXT_PUBLIC_API_URL_STORE: getEnvValue('NEXT_PUBLIC_API_URL_STORE', appEnvContent),
+    NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY_STORE: 'pk_test_placeholder_store', // User needs to provide
+    DATABASE_URL: 'postgresql://ecommerce_admin:secure_password@65.0.45.195:5432/ecommerce'
 };
 
 async function encryptSecret(key, value) {
