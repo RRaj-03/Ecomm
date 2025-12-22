@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "@octokit/core": "^7.0.6",
+    "sodium-native": "^5.0.10"
+  }
+}

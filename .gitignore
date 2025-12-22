@@ -1,0 +1,7 @@
+.env
+app-env
+node_modules/
+.DS_Store
+scripts/node_modules/
+scripts/ecomm-deploy-key-*.pem
+scripts/deployment-info.txt
